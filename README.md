@@ -42,7 +42,7 @@
 ## 역할
    회원 관련 페이지, 마이 페이지, 문의 
 
-## 실행화면
+## 실행화면 (전체 화면이 아닌 핵심 화면만 기술)
    <img src="https://github.com/lshstory0805/musicalProject/blob/main/Img/signup.png" style="width:300px; height: auto;"><br>
    <img src="https://github.com/lshstory0805/musicalProject/blob/main/Img/%EB%A1%9C%EA%B7%B8%EC%9D%B8.png" style="width:300px; height: auto;"><br>
     기본적인 로그인, 회원가입 페이지<br>
