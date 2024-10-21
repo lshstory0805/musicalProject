@@ -1,0 +1,293 @@
+
+#container {
+	font-family: "Noto Sans KR", sans-serif;
+	display:flex;
+	flex-direction: column; 
+	width: 70%;
+    margin: 0 auto;
+    padding: 200px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    gap : 50px;
+    white-space: nowrap;
+    overflow: auto; 
+    text-overflow: ellipsis; 
+    max-width : 1600px;
+}
+@media(max-width : 1650px){
+	#container{
+		width : 100%;
+	}
+		
+}
+
+ #actor {
+    display: flex;
+    flex-wrap: wrap;
+    gap : 15px;
+    align-items: center;
+    justify-content:center;
+}
+.actor-row {
+    display: flex;
+    flex-wrap: wrap;
+    text-align : center;
+    justify-content:center;
+    vertical-align:middle;
+    width: 100%;
+    margin-top : 35px;
+}
+.actor-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin: 0.5rem;
+    width: 300px;
+    height : 350px;
+    gap : 20px;
+}
+
+.actor-info img{
+	width : 100%;
+	height : 250px;
+}
+        
+    /* 뮤지컬 상세보기 전체 (포스터, 상세정보) */
+	.info{
+		display:flex;
+		width : 100%;
+		gap : 5%;
+	}
+	
+	/* 목록, 예매하기 버튼 */
+	.button-container{
+		position: relative;
+		flex:1;
+	}
+	
+	/* 뮤지컬 목록 버튼 */
+	.list{
+		display : inline-block;
+		position: absolute;
+		top : 0;
+		right : 0;
+	}
+	
+	/* 예매하기 버튼 */
+	.reservation{
+		display:inline-block;
+		position: absolute;
+		top : 90%;
+		right : 0;
+	}
+	
+	/* 뮤지컬 포스터 */
+	.img-fluid{
+		width : 300px;
+		max-width : 300px !important;
+		border-radius : 16px;
+		border : 0.5px solid black;
+	}
+	
+	#like-button{
+		font-size : 16px;
+		color : lightpink;
+	}
+	
+	/* 뮤지컬 상세정보 */
+	.musiscal-detail{
+		display : flex;
+		flex-direction: column;
+		gap : 30px;
+	}
+	
+	.musical-detail-info{
+		position:relative;
+		line-height: 2.5em;
+	}
+	
+	.detail-poster{
+		width : 80%;
+	}
+	
+	/* 상위리뷰 */
+	
+	#review{
+		display : flex;
+		flex-direction: column;
+		gap : 20px;
+		align-items: center;
+		margin-top : 50px;
+	}
+	
+	.review-container{
+		display : flex;
+		width : 100%;
+		flex-direction: column;
+		gap : 20px;
+		align-items: center;
+		padding : 50px;
+	}
+	
+	.reviw_content{
+		width : 100%;
+		background : #fff;
+		border-radius : 16px;
+		padding : 10px;
+		margin : auto;
+		box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+		font-weight: bolder;
+		line-height: 40px;
+	}
+	.reviw_content div{
+		display : flex;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	.review_header div{
+		margin : auto;
+	}
+	.star_rating {
+        display: inline-flex;
+        flex-direction: row;
+    }
+	
+	.star_rating .star {
+        width: 25px;
+        height: 27px;
+        margin-right: 0px;
+        background: url('/ex/resources/img/star.png') no-repeat;
+        background-size: cover;
+        cursor: pointer;
+    }
+
+	.star_rating.read-only .star {
+            pointer-events: none; /* 클릭 이벤트를 비활성화합니다 */
+    }
+    
+	.star.on {
+        background: url('/ex/resources/img/full_star.png') no-repeat;
+        background-size: cover;
+        font-size : 16px;
+    }
+
+	li{
+		margin-top: 10px;
+	}
+	
+	#venue{
+		display : flex;
+		flex-direction: column;
+		gap : 30px;
+	}
+	/* 좌석 등급별 가격 테이블 */
+	.seat-table{
+		min-width:250px;
+	}
+	
+	.seat-price{
+		text-align : right;
+	}
+	
+	/* tab */
+	.card-body{
+		max-height : 800px;
+		overflow: auto;
+		
+	}
+	
+	.red{
+		color:red;
+	}
+	
+	h1, h2, h3, h4, h5, .bold{
+		font-weight: bolder;
+	}
+	
+	
+	
+	/* 공연 스케쥴 */
+	.schedule-grid{
+		display : grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap : 20px;
+	}
+	
+	.schedule-grid table{
+		min-height : 150px;
+		border-collapse: collapse;
+		border: 0.5px  solid lightgrey;
+		text-align : center; 
+	}
+	
+	.schedule-grid th{
+		width : 175px;
+		vertical-align: middle;
+		
+	}
+	
+	.schedule-grid td{
+		padding : 20px;
+		height : 100%;
+		
+	}
+	
+	.schedule-grid tr{
+		vertical-align: middle;
+		border-top:0.5px solid lightgrey;
+		border-bottom:0.5px solid lightgrey;
+		border-collapse: collapse;
+	}
+	
+	.schedule-grid td div {
+		width : 100px;
+    	margin:20px auto;
+    	text-align : center; 
+    	border-bottom : 0.5px solid #ddd;
+	}
+	
+	#openModalLink, .nav-link{
+		text-decoration: none;
+		color: #000;  
+	}
+	
+	#openModalLink:hover, .nav-link:hover{
+		text-decoration: none;
+		color: #000;
+	}
+	
+	.modal-dialog.custom-modal{
+		max-width : 550px;
+	}
+	
+	.scroll-controls {
+    position: fixed;
+    bottom: 20px; /* 페이지 하단에서 20px 위 */
+    right: 20px; /* 페이지 우측에서 20px 떨어져 위치 */
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* 버튼 사이의 간격 */
+    z-index: 1000; /* 버튼이 다른 요소 위에 위치하도록 설정 */
+}
+
+.scroll-controls button {
+    background-color: #007bff; /* 버튼 배경색 */
+    color: white; /* 버튼 텍스트 색 */
+    border: none;
+    border-radius: 50%; /* 둥근 모서리 */
+    width: 40px; /* 버튼 너비 */
+    height: 40px; /* 버튼 높이 */
+    font-size: 20px; /* 버튼 텍스트 크기 */
+    cursor: pointer; /* 마우스 커서 손 모양 */
+    outline: none; /* 포커스 시 테두리 제거 */
+    transition: background-color 0.3s ease;
+}
+
+.scroll-controls button:hover {
+    background-color: #0056b3; /* 버튼에 마우스 오버 시 색상 변경 */
+}
