@@ -22,19 +22,19 @@
   <br>
     <img src="https://img.shields.io/badge/spring Security-6DB33F?style=for-the-badge&logo=spring Security&logoColor=white">
     <img src = "https://github.com/rlaalstlr09/Musical/blob/main/portfolio/mybatis.png" style="width:28px; height:28px;"><img src="https://img.shields.io/badge/MyBatis-ffffff?style=for-the-badge&logo=none" alt="MyBatis" style="background-color: #000000; color: balck;"> 
-  </div>
+  
 
-### DataBase
+#### DataBase
   <div>
     <img src="https://img.shields.io/badge/oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white">
   </div>
 
-### Server
+#### Server
   <div>
     <img src="https://img.shields.io/badge/apache tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=white">
   </div>
 
-### 협업
+#### 협업
   <div>
     <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
   </div>
@@ -43,4 +43,4 @@
    회원 관련 페이지, 마이 페이지, 문의 
 
 ## 실행화면
-
+   
