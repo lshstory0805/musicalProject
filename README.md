@@ -23,7 +23,7 @@
     <img src="https://img.shields.io/badge/spring Security-6DB33F?style=for-the-badge&logo=spring Security&logoColor=white">
     <img src = "https://github.com/lshstory0805/musicalProject/blob/main/Img/Mybatis.png" style="width:28px; height:28px;"><img src="https://img.shields.io/badge/MyBatis-ffffff?style=for-the-badge&logo=none" alt="MyBatis" style="background-color: #000000; color: balck;"> 
   <br>
-    <img src = "https://github.com/lshstory0805/musicalProject/blob/main/Img/coolsms.png" style="width:28px; height:28px;"><img src="https://img.shields.io/badge/MyBatis-ffffff?style=for-the-badge&logo=none" alt="MyBatis"     
+    <img src = "https://github.com/lshstory0805/musicalProject/blob/main/Img/coolsms.png" style="width:28px; height:28px;"><img src="https://img.shields.io/badge/coolsms-ffffff?style=for-the-badge&logo=none" alt="coolsms" style="background-color: #000000; color: balck;"> 
   
 
 #### DataBase
