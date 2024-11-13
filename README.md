@@ -52,7 +52,7 @@
     <li> Spring Security를 사용하여 비밀번호 암호화 처리와 권한 부여 </li>
     <li> 아이디 중복 확인, 비밀번호 확인 등 편의성 기능 제공</li>
     <li> 사용자 정보를 분실하였을 경우 문자나 메일을 통해 찾기 가능</li>
-
+    <li> 비밀번호 찾기는 임시 비밀번호 발급으로 보안성 문제 해결</li> 
 
   <img src="https://github.com/lshstory0805/musicalProject/blob/main/Img/%ED%9A%8C%EC%9B%90%EC%A0%95%EB%B3%B4.png" style="width:300px; height: auto;"><br>
   <img src="https://github.com/lshstory0805/musicalProject/blob/main/Img/%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8%ED%99%95%EC%9D%B8.png"
